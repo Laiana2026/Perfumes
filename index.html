@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laïana Perfumería | Catálogo Selecto</title>
+    <title>Laïana Perfumería | Catálogo Oficial</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@200;400;600;700&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -67,25 +67,14 @@
         .product-card { background: var(--white); border-radius: 2px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); display: flex; flex-direction: column; transition: transform 0.3s; }
         
         .swiper { width: 100%; height: 350px; background: #fff; }
-        .swiper-slide { 
-            display: flex; 
-            align-items: center; 
-            justify-content: center; 
-            padding: 20px;
-            box-sizing: border-box;
-        }
-        .swiper-slide img { 
-            max-width: 100%; 
-            max-height: 100%; 
-            object-fit: contain; 
-            margin: auto;
-        }
+        .swiper-slide { display: flex; align-items: center; justify-content: center; padding: 20px; box-sizing: border-box; }
+        .swiper-slide img { max-width: 100%; max-height: 100%; object-fit: contain; margin: auto; }
         
         .swiper-button-next, .swiper-button-prev { color: var(--brand-red); transform: scale(0.5); }
 
         .product-details { text-align: center; padding: 25px 20px; flex-grow: 1; display: flex; flex-direction: column; }
         .meta-tag { text-transform: uppercase; font-size: 0.6rem; letter-spacing: 2px; color: #888; margin-bottom: 8px; font-weight: 700; }
-        .product-name { font-family: 'Playfair Display', serif; font-size: 1.2rem; margin: 0; font-weight: 700; line-height: 1.2; min-height: 3rem; display: flex; align-items: center; justify-content: center; }
+        .product-name { font-family: 'Playfair Display', serif; font-size: 1.1rem; margin: 0; font-weight: 700; line-height: 1.2; min-height: 3.5rem; display: flex; align-items: center; justify-content: center; }
         .price-tag { display: block; font-size: 1.4rem; color: var(--brand-red); font-weight: 700; margin: 10px 0; }
         .description { font-size: 0.75rem; color: #555; line-height: 1.5; margin-bottom: 20px; flex-grow: 1; }
         
@@ -105,7 +94,7 @@
     <h1>Laïana Perfumería</h1>
     <p>Selection par Excellence</p>
     <div class="brand-seal">
-        <img src="https://github.com/Osmar8676/Visualizadores/blob/main/Imagen1.png?raw=true" alt="Laïana">
+        <img src="https://github.com/Osmar8676/Visualizadores/blob/main/Imagen1.png?raw=true" alt="Laïana Logo">
     </div>
 </header>
 
@@ -118,44 +107,30 @@
 
     <section class="gender-category">
         <div class="gender-header">Fragancias Unisex</div>
-        <div class="designer-group">
-            <h3 class="designer-name">Lattafa</h3>
+        
+        <div class="designer-group" data-designer="Al Haramain Perfumes">
+            <h3 class="designer-name">Al Haramain Perfumes</h3>
             <div class="products-grid">
                 <div class="product-card">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.75805.2x.avif"></div>
-                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_75805.jpeg"></div>
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.96482.2x.avif"></div>
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_96482.jpeg"></div>
                         </div>
                         <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
                     </div>
                     <div class="product-details">
-                        <span class="meta-tag">Eau de Parfum • 100 ml</span>
-                        <h2 class="product-name">Khamrah</h2>
-                        <span class="price-tag">$35</span>
-                        <p class="description">Oriental Especiada. Canela, dátiles y praliné sobre un fondo cálido de vainilla.</p>
-                        <a href="https://wa.me/593985301767?text=Hola%20Laïana%20Perfumería,%20solicito%20información%20y%20disponibilidad%20del%20perfume:%20Khamrah" class="btn-laiana">Solicitar Información</a>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.88175.2x.avif"></div>
-                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_88175.jpeg"></div>
-                        </div>
-                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
-                    </div>
-                    <div class="product-details">
-                        <span class="meta-tag">Eau de Parfum • 100 ml</span>
-                        <h2 class="product-name">Khamrah Qahwa</h2>
-                        <span class="price-tag">$35</span>
-                        <p class="description">Oriental Vainilla. Cardamomo, jengibre y un irresistible corazón de café.</p>
-                        <a href="https://wa.me/593985301767?text=Hola%20Laïana%20Perfumería,%20solicito%20información%20y%20disponibilidad%20del%20perfume:%20Khamrah%20Qahwa" class="btn-laiana">Solicitar Información</a>
+                        <span class="meta-tag">100 ml • Hombres y Mujeres</span>
+                        <h2 class="product-name">Amber Oud Aqua Dubai</h2>
+                        <span class="price-tag">$37</span>
+                        <p class="description">Aromática Frutal. Bergamota, notas verdes, melón, piña, almizcle y vainilla.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Amber%20Oud%20Aqua%20Dubai" class="btn-laiana">Solicitar</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="designer-group">
+
+        <div class="designer-group" data-designer="Laurice Rahmé">
             <h3 class="designer-name">Laurice Rahmé</h3>
             <div class="products-grid">
                 <div class="product-card">
@@ -167,11 +142,49 @@
                         <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
                     </div>
                     <div class="product-details">
-                        <span class="meta-tag">Eau de Parfum • 100 ml</span>
-                        <h2 class="product-name">Bleecker Street</h2>
+                        <span class="meta-tag">100 ml • Hombres y Mujeres</span>
+                        <h2 class="product-name">Bleecker Street Bond No 9</h2>
                         <span class="price-tag">$35</span>
-                        <p class="description">Oriental Amaderada. Notas de violeta, moras azules y fondo de gamuza.</p>
-                        <a href="https://wa.me/593985301767?text=Hola%20Laïana%20Perfumería,%20solicito%20información%20y%20disponibilidad%20del%20perfume:%20Bleecker%20Street" class="btn-laiana">Solicitar Información</a>
+                        <p class="description">Oriental Amaderada. Hojas de violeta, moras azules, jazmín, gamuza y caramelo.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Bleecker%20Street" class="btn-laiana">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="designer-group" data-designer="Lattafa">
+            <h3 class="designer-name">Lattafa</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.75805.2x.avif"></div>
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_75805.jpeg"></div>
+                        </div>
+                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="product-details">
+                        <span class="meta-tag">100 ml • Hombres y Mujeres</span>
+                        <h2 class="product-name">Khamrah</h2>
+                        <span class="price-tag">$35</span>
+                        <p class="description">Oriental Especiada. Canela, dátiles, praliné, vainilla y haba tonka.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Khamrah" class="btn-laiana">Solicitar</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.88175.2x.avif"></div>
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_88175.jpeg"></div>
+                        </div>
+                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="product-details">
+                        <span class="meta-tag">100 ml • Hombres y Mujeres</span>
+                        <h2 class="product-name">Khamrah Qahwa</h2>
+                        <span class="price-tag">$35</span>
+                        <p class="description">Oriental Vainilla. Canela, cardamomo, frutas confitadas, café y vainilla.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Khamrah%20Qahwa" class="btn-laiana">Solicitar</a>
                     </div>
                 </div>
             </div>
@@ -180,44 +193,8 @@
 
     <section class="gender-category">
         <div class="gender-header">Fragancias para Ella</div>
-        <div class="designer-group">
-            <h3 class="designer-name">Armaf</h3>
-            <div class="products-grid">
-                <div class="product-card">
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.98717.2x.avif"></div>
-                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_98717.jpeg"></div>
-                        </div>
-                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
-                    </div>
-                    <div class="product-details">
-                        <span class="meta-tag">Eau de Parfum • 100 ml</span>
-                        <h2 class="product-name">Yum Yum</h2>
-                        <span class="price-tag">$37</span>
-                        <p class="description">Floral Frutal. Cereza y bayas silvestres con un corazón de flores blancas y vainilla.</p>
-                        <a href="https://wa.me/593985301767?text=Hola%20Laïana%20Perfumería,%20solicito%20información%20y%20disponibilidad%20del%20perfume:%20Yum%20Yum" class="btn-laiana">Solicitar Información</a>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.98718.2x.avif"></div>
-                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_98718.jpeg"></div>
-                        </div>
-                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
-                    </div>
-                    <div class="product-details">
-                        <span class="meta-tag">Eau de Parfum • 100 ml</span>
-                        <h2 class="product-name">Island Bliss</h2>
-                        <span class="price-tag">$37</span>
-                        <p class="description">Floral Frutal Gourmand. Coco y bayas silvestres con haba tonka y vainilla.</p>
-                        <a href="https://wa.me/593985301767?text=Hola%20Laïana%20Perfumería,%20solicito%20información%20y%20disponibilidad%20del%20perfume:%20Island%20Bliss" class="btn-laiana">Solicitar Información</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="designer-group">
+        
+        <div class="designer-group" data-designer="Carolina Herrera">
             <h3 class="designer-name">Carolina Herrera</h3>
             <div class="products-grid">
                 <div class="product-card">
@@ -229,11 +206,11 @@
                         <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
                     </div>
                     <div class="product-details">
-                        <span class="meta-tag">Eau de Parfum • 100 ml</span>
-                        <h2 class="product-name">La Bomba</h2>
+                        <span class="meta-tag">100 ml • Mujer</span>
+                        <h2 class="product-name">La Bomba Eau de Parfum</h2>
                         <span class="price-tag">$35</span>
-                        <p class="description">Oriental Floral. Exótica pitahaya y peonía roja sobre base de vainilla.</p>
-                        <a href="https://wa.me/593985301767?text=Hola%20Laïana%20Perfumería,%20solicito%20información%20y%20disponibilidad%20del%20perfume:%20La%20Bomba" class="btn-laiana">Solicitar Información</a>
+                        <p class="description">Oriental Floral. Pitahaya, frangipani, peonía roja, vainilla y pachulí.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20La%20Bomba" class="btn-laiana">Solicitar</a>
                     </div>
                 </div>
                 <div class="product-card">
@@ -245,11 +222,11 @@
                         <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
                     </div>
                     <div class="product-details">
-                        <span class="meta-tag">Eau de Parfum • 100 ml</span>
-                        <h2 class="product-name">Good Girl Blush</h2>
+                        <span class="meta-tag">100 ml • Mujer</span>
+                        <h2 class="product-name">Good Girl Blush Eau de Parfum</h2>
                         <span class="price-tag">$30</span>
-                        <p class="description">Bergamota, ylang-ylang y rosa. Una expresión romántica y empolvada.</p>
-                        <a href="https://wa.me/593985301767?text=Hola%20Laïana%20Perfumería,%20solicito%20información%20y%20disponibilidad%20del%20perfume:%20Good%20Girl%20Blush" class="btn-laiana">Solicitar Información</a>
+                        <p class="description">Bergamota, mandarina, ylang-ylang, rosa, vainilla y pachulí.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Good%20Girl%20Blush" class="btn-laiana">Solicitar</a>
                     </div>
                 </div>
                 <div class="product-card">
@@ -261,16 +238,55 @@
                         <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
                     </div>
                     <div class="product-details">
-                        <span class="meta-tag">Eau de Parfum • 100 ml</span>
-                        <h2 class="product-name">Very Good Girl</h2>
+                        <span class="meta-tag">100 ml • Mujer</span>
+                        <h2 class="product-name">Very Good Girl Eau de Parfum</h2>
                         <span class="price-tag">$30</span>
-                        <p class="description">Oriental Floral con notas de cereza negra, almendra amarga y rosa.</p>
-                        <a href="https://wa.me/593985301767?text=Hola%20Laïana%20Perfumería,%20solicito%20información%20y%20disponibilidad%20del%20perfume:%20Very%20Good%20Girl" class="btn-laiana">Solicitar Información</a>
+                        <p class="description">Oriental Floral. Cereza negra, almendra amarga, rosa, nardos y cacao.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Very%20Good%20Girl" class="btn-laiana">Solicitar</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="designer-group">
+
+        <div class="designer-group" data-designer="Armaf">
+            <h3 class="designer-name">Armaf</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.98717.2x.avif"></div>
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_98717.jpeg"></div>
+                        </div>
+                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="product-details">
+                        <span class="meta-tag">100 ml • Mujer</span>
+                        <h2 class="product-name">Yum Yum</h2>
+                        <span class="price-tag">$37</span>
+                        <p class="description">Floral Frutal. Bayas silvestres, cereza, rosa y notas atalcadas.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Yum%20Yum" class="btn-laiana">Solicitar</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.98718.2x.avif"></div>
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_98718.jpeg"></div>
+                        </div>
+                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="product-details">
+                        <span class="meta-tag">100 ml • Mujer</span>
+                        <h2 class="product-name">Island Bliss</h2>
+                        <span class="price-tag">$27</span>
+                        <p class="description">Floral Frutal Gourmand. Coco, flor de azahar, lactonas y vainilla.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Island%20Bliss" class="btn-laiana">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="designer-group" data-designer="Versace">
             <h3 class="designer-name">Versace</h3>
             <div class="products-grid">
                 <div class="product-card">
@@ -282,11 +298,11 @@
                         <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
                     </div>
                     <div class="product-details">
-                        <span class="meta-tag">Eau de Toilette • 100 ml</span>
+                        <span class="meta-tag">100 ml • Mujer</span>
                         <h2 class="product-name">Bright Crystal</h2>
                         <span class="price-tag">$30</span>
-                        <p class="description">Floral Frutal radiante con yuzu, granada, peonía y flor de loto.</p>
-                        <a href="https://wa.me/593985301767?text=Hola%20Laïana%20Perfumería,%20solicito%20información%20y%20disponibilidad%20del%20perfume:%20Bright%20Crystal" class="btn-laiana">Solicitar Información</a>
+                        <p class="description">Floral Frutal. Yuzu, granada, peonía, loto y almizcle.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Bright%20Crystal" class="btn-laiana">Solicitar</a>
                     </div>
                 </div>
             </div>
@@ -295,65 +311,8 @@
 
     <section class="gender-category">
         <div class="gender-header">Fragancias para Él</div>
-        <div class="designer-group">
-            <h3 class="designer-name">Lattafa</h3>
-            <div class="products-grid">
-                <div class="product-card">
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.104529.2x.avif"></div>
-                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_104529.jpeg"></div>
-                        </div>
-                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
-                    </div>
-                    <div class="product-details">
-                        <span class="meta-tag">Eau de Parfum • 100 ml</span>
-                        <h2 class="product-name">Khamrah Dukhan</h2>
-                        <span class="price-tag">$35</span>
-                        <p class="description">Oriental. Incienso, tabaco y praliné para un carácter oscuro.</p>
-                        <a href="https://wa.me/593985301767?text=Hola%20Laïana%20Perfumería,%20solicito%20información%20y%20disponibilidad%20del%20perfume:%20Khamrah%20Dukhan" class="btn-laiana">Solicitar Información</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="designer-group">
-            <h3 class="designer-name">Carolina Herrera</h3>
-            <div class="products-grid">
-                <div class="product-card">
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.46093.2x.avif"></div>
-                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_46093.jpeg"></div>
-                        </div>
-                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
-                    </div>
-                    <div class="product-details">
-                        <span class="meta-tag">Eau de Parfum • 100 ml</span>
-                        <h2 class="product-name">212 VIP Black</h2>
-                        <span class="price-tag">$30</span>
-                        <p class="description">Aromática Fougère con absenta y lavanda sobre vainilla negra.</p>
-                        <a href="https://wa.me/593985301767?text=Hola%20Laïana%20Perfumería,%20solicito%20información%20y%20disponibilidad%20del%20perfume:%20212%20VIP%20Black" class="btn-laiana">Solicitar Información</a>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.55449.2x.avif"></div>
-                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_55449.jpeg"></div>
-                        </div>
-                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
-                    </div>
-                    <div class="product-details">
-                        <span class="meta-tag">Eau de Toilette • 100 ml</span>
-                        <h2 class="product-name">Bad Boy</h2>
-                        <span class="price-tag">$30</span>
-                        <p class="description">Oriental Especiada con pimienta blanca, cacao y haba tonka.</p>
-                        <a href="https://wa.me/593985301767?text=Hola%20Laïana%20Perfumería,%20solicito%20información%20y%20disponibilidad%20del%20perfume:%20Bad%20Boy" class="btn-laiana">Solicitar Información</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="designer-group">
+        
+        <div class="designer-group" data-designer="Valentino">
             <h3 class="designer-name">Valentino</h3>
             <div class="products-grid">
                 <div class="product-card">
@@ -365,11 +324,11 @@
                         <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
                     </div>
                     <div class="product-details">
-                        <span class="meta-tag">Eau de Parfum Intense • 100 ml</span>
-                        <h2 class="product-name">Born In Roma Intense</h2>
+                        <span class="meta-tag">100 ml • Hombre</span>
+                        <h2 class="product-name">Valentino Uomo Born In Roma Intense</h2>
                         <span class="price-tag">$30</span>
-                        <p class="description">Oriental Vainilla intensa con lavanda y un fondo de vetiver.</p>
-                        <a href="https://wa.me/593985301767?text=Hola%20Laïana%20Perfumería,%20solicito%20información%20y%20disponibilidad%20del%20perfume:%20Born%20In%20Roma%20Intense" class="btn-laiana">Solicitar Información</a>
+                        <p class="description">Oriental Vainilla. Lavanda, vainilla y vetiver.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Born%20In%20Roma%20Intense" class="btn-laiana">Solicitar</a>
                     </div>
                 </div>
                 <div class="product-card">
@@ -381,11 +340,191 @@
                         <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
                     </div>
                     <div class="product-details">
-                        <span class="meta-tag">Eau de Toilette • 100 ml</span>
-                        <h2 class="product-name">Born In Roma Coral Fantasy</h2>
+                        <span class="meta-tag">100 ml • Hombre</span>
+                        <h2 class="product-name">Valentino Uomo Born In Roma Coral Fantasy</h2>
                         <span class="price-tag">$30</span>
-                        <p class="description">Amaderada Aromática. Manzana roja y tabaco con un toque fresco.</p>
-                        <a href="https://wa.me/593985301767?text=Hola%20Laïana%20Perfumería,%20solicito%20información%20y%20disponibilidad%20del%20perfume:%20Born%20In%20Roma%20Coral%20Fantasy" class="btn-laiana">Solicitar Información</a>
+                        <p class="description">Amaderada Aromática. Manzana roja, lavanda y tabaco.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Coral%20Fantasy" class="btn-laiana">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="designer-group" data-designer="Carolina Herrera">
+            <h3 class="designer-name">Carolina Herrera</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.46093.2x.avif"></div>
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_46093.jpeg"></div>
+                        </div>
+                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="product-details">
+                        <span class="meta-tag">100 ml • Hombre</span>
+                        <h2 class="product-name">212 VIP Black</h2>
+                        <span class="price-tag">$30</span>
+                        <p class="description">Aromática Fougère. Absenta, anís, lavanda y vainilla negra.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20212%20VIP%20Black" class="btn-laiana">Solicitar</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.55449.2x.avif"></div>
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_55449.jpeg"></div>
+                        </div>
+                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="product-details">
+                        <span class="meta-tag">100 ml • Hombre</span>
+                        <h2 class="product-name">Bad Boy</h2>
+                        <span class="price-tag">$30</span>
+                        <p class="description">Oriental Especiada. Pimienta blanca, cedro y haba tonka.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Bad%20Boy" class="btn-laiana">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="designer-group" data-designer="Lattafa">
+            <h3 class="designer-name">Lattafa</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.104529.2x.avif"></div>
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_104529.jpeg"></div>
+                        </div>
+                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="product-details">
+                        <span class="meta-tag">100 ml • Hombre</span>
+                        <h2 class="product-name">Khamrah Dukhan</h2>
+                        <span class="price-tag">$35</span>
+                        <p class="description">Oriental. Especias, incienso, tabaco, praliné y ámbar.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Khamrah%20Dukhan" class="btn-laiana">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="designer-group" data-designer="Dior">
+            <h3 class="designer-name">Dior</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.31861.2x.avif"></div>
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_31861.jpeg"></div>
+                        </div>
+                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="product-details">
+                        <span class="meta-tag">100 ml • Hombre</span>
+                        <h2 class="product-name">Sauvage</h2>
+                        <span class="price-tag">$30</span>
+                        <p class="description">Aromática Fougère. Bergamota, pimienta, lavanda y ambroxan.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Sauvage" class="btn-laiana">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="designer-group" data-designer="Dumont">
+            <h3 class="designer-name">Dumont</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.73023.2x.avif"></div>
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_73023.jpeg"></div>
+                        </div>
+                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="product-details">
+                        <span class="meta-tag">100 ml • Hombre</span>
+                        <h2 class="product-name">Nitro Red</h2>
+                        <span class="price-tag">$32</span>
+                        <p class="description">Aromática Frutal. Manzana, sandía, cedro y sándalo.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Nitro%20Red" class="btn-laiana">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="designer-group" data-designer="Giorgio Armani">
+            <h3 class="designer-name">Giorgio Armani</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.64501.2x.avif"></div>
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_64501.jpeg"></div>
+                        </div>
+                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="product-details">
+                        <span class="meta-tag">100 ml • Hombre</span>
+                        <h2 class="product-name">Emporio Armani Stronger With You Absolutely</h2>
+                        <span class="price-tag">$25</span>
+                        <p class="description">Oriental Fougère. Ron, lavanda, vainilla y castaña.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20SWY%20Absolutely" class="btn-laiana">Solicitar</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.52802.2x.avif"></div>
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_52802.jpeg"></div>
+                        </div>
+                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="product-details">
+                        <span class="meta-tag">100 ml • Hombre</span>
+                        <h2 class="product-name">Emporio Armani Stronger With You Intensely</h2>
+                        <span class="price-tag">$30</span>
+                        <p class="description">Oriental Fougère. Tófe, canela, vainilla y ámbar.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20SWY%20Intensely" class="btn-laiana">Solicitar</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.100895.2x.avif"></div>
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_100895.jpeg"></div>
+                        </div>
+                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="product-details">
+                        <span class="meta-tag">100 ml • Hombre</span>
+                        <h2 class="product-name">Emporio Armani Stronger With You Parfum</h2>
+                        <span class="price-tag">$32</span>
+                        <p class="description">Oriental Fougère. Mandarina, canela, castaña y cuero.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20SWY%20Parfum" class="btn-laiana">Solicitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="designer-group" data-designer="Yves Saint Laurent">
+            <h3 class="designer-name">Yves Saint Laurent</h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.50757.2x.avif"></div>
+                            <div class="swiper-slide"><img src="https://fimgs.net/mdimg/perfume-social-cards/es-p_c_50757.jpeg"></div>
+                        </div>
+                        <div class="swiper-button-next"></div><div class="swiper-button-prev"></div>
+                    </div>
+                    <div class="product-details">
+                        <span class="meta-tag">100 ml • Hombre</span>
+                        <h2 class="product-name">Y Eau de Parfum</h2>
+                        <span class="price-tag">$30</span>
+                        <p class="description">Aromática Fougère. Manzana, jengibre, salvia y cedro.</p>
+                        <a href="https://wa.me/593985301767?text=Información%20Y%20EDP" class="btn-laiana">Solicitar</a>
                     </div>
                 </div>
             </div>
@@ -398,9 +537,8 @@
 </footer>
 
 <script>
-    const swipers = new Swiper(".mySwiper", { 
-        loop: true, 
-        speed: 800, 
+    const swiper = new Swiper(".mySwiper", { 
+        loop: true, speed: 800,
         navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" } 
     });
 
@@ -408,28 +546,20 @@
         const term = e.target.value.toLowerCase();
         const cards = document.querySelectorAll('.product-card');
         const sections = document.querySelectorAll('.gender-category');
-        const designers = document.querySelectorAll('.designer-group');
+        const groups = document.querySelectorAll('.designer-group');
         let totalVisible = 0;
 
         cards.forEach(card => {
-            const productName = card.querySelector('.product-name').textContent.toLowerCase();
-            const designerName = card.closest('.designer-group').querySelector('.designer-name').textContent.toLowerCase();
-            if (productName.includes(term) || designerName.includes(term)) {
+            const name = card.querySelector('.product-name').textContent.toLowerCase();
+            const designer = card.closest('.designer-group').getAttribute('data-designer').toLowerCase();
+            if (name.includes(term) || designer.includes(term)) {
                 card.style.display = 'flex';
                 totalVisible++;
             } else { card.style.display = 'none'; }
         });
 
-        designers.forEach(group => {
-            const visibleInGroup = group.querySelectorAll('.product-card[style="display: flex;"]').length;
-            group.style.display = visibleInGroup > 0 ? 'block' : 'none';
-        });
-
-        sections.forEach(section => {
-            const visibleInSection = section.querySelectorAll('.product-card[style="display: flex;"]').length;
-            section.style.display = visibleInSection > 0 ? 'block' : 'none';
-        });
-
+        groups.forEach(g => { g.style.display = g.querySelectorAll('.product-card[style="display: flex;"]').length > 0 ? 'block' : 'none'; });
+        sections.forEach(s => { s.style.display = s.querySelectorAll('.product-card[style="display: flex;"]').length > 0 ? 'block' : 'none'; });
         document.getElementById('noResults').style.display = totalVisible === 0 ? 'block' : 'none';
     });
 </script>
