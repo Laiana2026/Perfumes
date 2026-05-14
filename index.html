@@ -2596,8 +2596,181 @@
                 </div>
             </div>
         </div>
-    </section>
+    
+
+
+<style>
+        :root {
+            --fuente-laiana: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            --negro-premium: #1a1a1a;
+            --rojo-corazon: #e02020;
+        }
+
+        body {
+            font-family: var(--fuente-laiana);
+            background-color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .brand-header {
+            text-transform: uppercase;
+            letter-spacing: 7px;
+            font-size: 14px;
+            color: var(--negro-premium);
+            margin-bottom: 30px;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        /* Contenedor Triple */
+        .triple-ad-wrapper {
+            display: flex;
+            gap: 15px;
+            width: 100%;
+            max-width: 1100px;
+            justify-content: center;
+        }
+
+        /* Cada Recuadro Individual */
+        .ad-box {
+            flex: 1;
+            text-align: center;
+            max-width: 350px;
+        }
+
+        .category-label {
+            font-size: 11px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--negro-premium);
+            margin-bottom: 15px;
+            display: block;
+            font-weight: 600;
+        }
+
+        /* Galería de Desvanecimiento */
+        .fade-gallery {
+            position: relative;
+            width: 100%;
+            height: 350px; /* Altura ajustada para 3 columnas */
+            background: #fff;
+            overflow: hidden;
+            border-radius: 4px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        .fade-item {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fade-item.active {
+            opacity: 1;
+            z-index: 1;
+        }
+
+        .fade-item img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover; /* Cambiado a cover para llenar el recuadro profesionalmente */
+        }
+
+        /* Responsivo para móviles */
+        @media (max-width: 768px) {
+            .triple-ad-wrapper {
+                flex-direction: column;
+                align-items: center;
+            }
+            .ad-box {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 11px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+    </style>
+</head>
+<body>
+
+<h3 class="brand-header">Publicidad</h3>
+
+<div class="triple-ad-wrapper">
+    
+    <!-- BLOQUE UNISEX -->
+    <div class="ad-box">
+        <span class="category-label">UNISEX</span>
+        <div class="fade-gallery" id="gallery-unisex">
+            <div class="fade-item active"><img src="https://i.postimg.cc/jjYxj53h/Whats-App-Image-2026-05-14-at-1-57-19-PM.jpg"></div>
+            <div class="fade-item"><img src="https://i.postimg.cc/TYqMc9t5/Whats-App-Image-2026-05-14-at-2-00-54-PM.jpg"></div>
+            <div class="fade-item"><img src="https://i.postimg.cc/SN7FGrgM/Whats-App-Image-2026-05-14-at-2-01-48-PM.jpg"></div>
+        </div>
+    </div>
+
+    <!-- BLOQUE MUJER -->
+    <div class="ad-box">
+        <span class="category-label">MUJER</span>
+        <div class="fade-gallery" id="gallery-mujer">
+            <div class="fade-item active"><img src="https://i.postimg.cc/TYqMc9t5/Whats-App-Image-2026-05-14-at-2-00-54-PM.jpg"></div>
+            <div class="fade-item"><img src="https://i.postimg.cc/SN7FGrgM/Whats-App-Image-2026-05-14-at-2-01-48-PM.jpg"></div>
+            <div class="fade-item"><img src="https://i.postimg.cc/jjYxj53h/Whats-App-Image-2026-05-14-at-1-57-19-PM.jpg"></div>
+        </div>
+    </div>
+
+    <!-- BLOQUE HOMBRE -->
+    <div class="ad-box">
+        <span class="category-label">HOMBRE</span>
+        <div class="fade-gallery" id="gallery-hombre">
+            <div class="fade-item active"><img src="https://i.postimg.cc/SN7FGrgM/Whats-App-Image-2026-05-14-at-2-01-48-PM.jpg"></div>
+            <div class="fade-item"><img src="https://i.postimg.cc/jjYxj53h/Whats-App-Image-2026-05-14-at-1-57-19-PM.jpg"></div>
+            <div class="fade-item"><img src="https://i.postimg.cc/TYqMc9t5/Whats-App-Image-2026-05-14-at-2-00-54-PM.jpg"></div>
+        </div>
+    </div>
+
 </div>
+
+<script>
+    function startGallery(containerId) {
+        const container = document.getElementById(containerId);
+        const items = container.querySelectorAll('.fade-item');
+        let current = 0;
+
+        setInterval(() => {
+            items[current].classList.remove('active');
+            current = (current + 1) % items.length;
+            items[current].classList.add('active');
+        }, 5000);
+    }
+
+    // Iniciar las tres galerías
+    startGallery('gallery-unisex');
+    startGallery('gallery-mujer');
+    startGallery('gallery-hombre');
+</script>
+
+
+
+
+
+
 
 
 
