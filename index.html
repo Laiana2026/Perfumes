@@ -11,12 +11,12 @@
 
     <style>
         :root { 
-            --brand-red: #be1622; 
-            --brand-gold: #c5a059;      
-            --brand-cream: #FFFFFF; 
-            --white: #ffffff;
+            --brand-red: #be1622;    /* Franjas rojas */
+            --brand-gold: #c5a059;      /* Nombres diseñador */
+            --brand-cream: #FFFFFF;   /* Fondo general */
+            --white: #ffffff;      /* Fondo tarjeta producto */
             --black: #1a1a1a;
-            --gender-bg: #f2ede4;
+            --gender-bg: #f2ede4;    /* Fondo categorias */
         }
         
         body { 
@@ -4723,6 +4723,54 @@
 
     </div>
 </div>
+
+<!-- ================= PEGA LA TARÁNTULA AQUÍ ================= -->
+<div id="tarantula-container">
+    <img id="tarantula" src="https://media.tenor.com/_lBbIXqj4QIAAAAm/spider.webp" alt="Tarántula caminando"> 
+</div>
+
+<style>
+    #tarantula-container {
+        position: fixed;
+        bottom: 20px;
+        left: -120px;
+        z-index: 9999;
+        pointer-events: none;
+        animation: tarantulaCaminar 18s linear infinite;
+    }
+
+    #tarantula {
+        width: 100px;
+        height: auto;
+        transform: scaleX(1);
+    }
+
+    @keyframes tarantulaCaminar {
+        0% {
+            left: -120px;
+            transform: scaleX(1);
+        }
+        48% {
+            left: calc(100vw + 20px);
+            transform: scaleX(1);
+        }
+        50% {
+            left: calc(100vw + 20px);
+            transform: scaleX(-1);
+        }
+        98% {
+            left: -120px;
+            transform: scaleX(-1);
+        }
+        100% {
+            left: -120px;
+            transform: scaleX(1);
+        }
+    }
+</style>
+<!-- ================= FIN DEL CÓDIGO DE LA TARÁNTULA ================= -->
+
+
 
 
 
